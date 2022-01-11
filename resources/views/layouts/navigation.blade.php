@@ -51,6 +51,11 @@
               Home
             </x-nav-link>
           </li>
+          <x-nav-link href="#" >
+            <i class="nav-icon fas fa-users"></i>
+            Colaboradores
+          </x-nav-link>
+        </li>
           <li class="nav-item">
             <x-nav-link href="#" >
               <i class="nav-icon fas fa-users"></i>
@@ -72,6 +77,12 @@
             <x-nav-link href="#" >
               <i class="nav-icon fas fa-shopping-basket"></i>
               Pedidos
+            </x-nav-link>
+          </li>
+          <li class="nav-item">
+            <x-nav-link href="#" >
+              <i class="nav-icon fas fa-cog"></i>
+              Configurações
             </x-nav-link>
           </li>
         </ul>
