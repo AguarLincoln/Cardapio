@@ -53,8 +53,25 @@
           </li>
           <li class="nav-item">
             <x-nav-link href="#" >
-              <i class="nav-icon fas fa-tachometer-alt"></i>
-              Home
+              <i class="nav-icon fas fa-users"></i>
+              Clientes
+            </x-nav-link>
+          </li>
+          <li class="nav-item">
+            <x-nav-link href="#" >
+              <i class="nav-icon fas fa-list-ol"></i>
+              Categorias
+            </x-nav-link>
+          <li class="nav-item">
+            <x-nav-link href="#" >
+              <i class="nav-icon fas fa-th-list"></i>
+              Produtos
+            </x-nav-link>
+          </li>
+          <li class="nav-item">
+            <x-nav-link href="#" >
+              <i class="nav-icon fas fa-shopping-basket"></i>
+              Pedidos
             </x-nav-link>
           </li>
         </ul>

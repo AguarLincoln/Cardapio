@@ -22,7 +22,7 @@
 <body class="hold-transition sidebar-mini">
     <div class="wrapper">
         @include('layouts.navigation')
-        
+
         <!-- Page Content -->
         <main class="content-wrapper">
             <div class="content-header">
@@ -45,7 +45,7 @@
             Anything you want
         </div>
         <!-- Default to the left -->
-        <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+        <strong>Copyright &copy; 2022 <a href="https://adminlte.io">{{config('app.name')}}</a>.</strong> Todos os direitos reservados.
     </footer>
     <!-- Scripts -->
     <script src="{{ mix('js/app.js') }}" defer></script>
